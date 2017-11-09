@@ -1,0 +1,47 @@
+body {
+    background-color: steelblue; 
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida sans';
+}
+
+#ball1 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 20px auto;
+    transition: 1s ease-in-out;
+  }
+  #ball1:hover {
+    transform: translate(40px,0);
+  }
+
+  #ball2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 20px auto;
+    transition: 1s ease-in;
+  }
+  #ball2:hover {
+    transform: scale(2);
+  }
+
+  #ball3 {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 20px auto;
+    transition: 1s ease-in-out;
+  }
+  #ball3:hover {
+    background-color: turquoise;
+  }
+
+
